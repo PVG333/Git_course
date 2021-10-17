@@ -20,4 +20,4 @@ w = observation.weather
 print(w)
 
 
-print(олдыводл)
+print("Hello Git")
