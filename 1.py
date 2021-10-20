@@ -1,8 +1,9 @@
-#name=(Соня)
-#age= 8
-name=input("Ввведите своё имя: ")
-age=input("Укажите свой возраст: ")
-
-print("Привет, " + name + "!")
-print("Тебе уже " + age + " лет, это так круто!!! =D" )
-print ('Good night my dear Я тебя люблю')
+name=input("Здравствуйте, как Вас зовут?\n")
+print(f"Приятно познакомиться, {name} !")
+age=input("Сколько Вам лет?\n")
+if age == "1":
+	print("Тебе уже " + age + " год, это так круто!!!" )
+elif age == "2 or 3":
+	print("Тебе уже " + age + " года, это так круто!!!" )
+else:
+	print ('Good night my dear \nЯ тебя люблю')
